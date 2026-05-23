@@ -1,0 +1,40 @@
+zSeq = 0b11111010001001010110000111001101111101000100101011000011100110
+
+f_x: [16] -> [16]
+f_x w = ((w<<<1) && (w<<<8)) ^ (w<<<2)
+
+simonRound: [16] -> [16] -> [16] -> ([16],[16])
+simonRound X Y Round_key = (X', Y') where
+    X' = Y ^ (f_x X) ^ Round_key
+    Y' = X
+
+expandKey : [4][16] -> [32][16]
+expandKey k0 = k
+    where
+        k = k0 # [r where
+                    tmp = (k@(i-1))>>> 3
+                    p = tmp ^ (k @ (i-3))
+                    q = p ^ (p >>> 1)
+                    tt = zero:[15]
+                    z = tt # [zSeq @ ((i-4)% 62)]
+                    c3 = 3:[16]
+                    r = ~k@(i-4) ^ q ^ z ^ c3
+                | i <- [4 .. 31]
+                ]
+
+simonEncrypt : ([4][16], [2][16]) -> ([16], [16])
+simonEncrypt (key, plaintext) = (x, y) where
+
+    x0 = plaintext@0
+    y0 = plaintext@1
+        
+    roundKeys = expandKey key
+    
+    rounds = [(x0, y0)] # [simonRound tx ty k | (tx,ty) <-rounds
+                                            | k <-roundKeys]
+    (x,y) = rounds @ 32
+
+testSimon : Bit
+testSimon = (x, y) == (0xc69b, 0xe9bb)
+  where
+    (x, y) = simonEncrypt ([0x0100, 0x0908, 0x1110, 0x1918], [0x6565, 0x6877])
