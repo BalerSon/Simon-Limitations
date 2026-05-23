@@ -53,3 +53,21 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# binaries
+saw
+kissat
+SAW_lib/
+kissat-rel-*/
+
+# generated formulas and solver outputs
+*.cnf
+*.aig
+*.aiger
+*.log
+*.out
+
+# build artifacts
+*.o
+main
+generator

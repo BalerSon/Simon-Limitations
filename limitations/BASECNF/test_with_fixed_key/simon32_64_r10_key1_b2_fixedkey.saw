@@ -1,0 +1,15 @@
+m <- cryptol_load "/home/balerso/Simon/Simon-Limitations/limitations/CNF/simon32-64_range_rounds.cry";
+
+let enc10 = {{ m::simonEncrypt10 }};
+
+let goal = {{ \key ->
+  (key == [0xCF3B : [16], 0x1BED : [16], 0xA195 : [16], 0xA847 : [16]])
+  &&
+  (enc10 (key, [0xC1D9 : [16], 0xD5A3 : [16]])
+    == (0xB580 : [16], 0x4C08 : [16]))
+  &&
+  (enc10 (key, [0xEB2C : [16], 0x643E : [16]])
+    == (0x91A1 : [16], 0x3F0D : [16]))
+}};
+
+write_cnf "check_r10_key1_b2_fixedkey.cnf" goal;
