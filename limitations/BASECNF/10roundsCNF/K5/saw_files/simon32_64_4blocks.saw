@@ -4,16 +4,16 @@ let enc10 = {{ m::simonEncrypt10 }};
 
 let goal = {{ \key ->
   (enc10 (key, [0xC1D9 : [16], 0xD5A3 : [16]])
-    == (0xB580 : [16], 0x4C08 : [16]))
+    == (0xCA81 : [16], 0xE1D5 : [16]))
   &&
   (enc10 (key, [0xEB2C : [16], 0x643E : [16]])
-    == (0x91A1 : [16], 0x3F0D : [16]))
+    == (0x4C2E : [16], 0x307F : [16]))
   &&
   (enc10 (key, [0x2ACB : [16], 0x810B : [16]])
-    == (0x804E : [16], 0xB083 : [16]))
+    == (0x0E0A : [16], 0x0BF1 : [16]))
   &&
   (enc10 (key, [0xB6E3 : [16], 0xA056 : [16]])
-    == (0x81A6 : [16], 0x90EC : [16]))
+    == (0x2DFB : [16], 0x8824 : [16]))
 }};
 
-write_cnf "simon32_64_r10_key1_b4.cnf" goal;
+write_cnf "simon32_64_r10_key5_b4.cnf" goal;

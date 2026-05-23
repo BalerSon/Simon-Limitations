@@ -1,4 +1,4 @@
-m <- cryptol_load "/home/balerso/Simon/Simon-Limitations/limitations/CNF/simon32-64_range_rounds.cry";
+m <- cryptol_load "/home/balerso/Simon/Simon-Limitations/limitations/BASECNF/simon32-64_range_rounds.cry";
 
 let enc10 = {{ m::simonEncrypt10 }};
 
