@@ -22,19 +22,35 @@ expandKey k0 = k
                 | i <- [4 .. 31]
                 ]
 
-simonEncrypt : ([4][16], [2][16]) -> ([16], [16])
-simonEncrypt (key, plaintext) = (x, y) where
+simonEncryptRounds : {r} (fin r, r >= 1, r <= 32) => ([4][16], [2][16]) -> ([16], [16])
+simonEncryptRounds (key, plaintext) = (x, y) where
 
     x0 = plaintext@0
     y0 = plaintext@1
         
     roundKeys = expandKey key
     
-    rounds = [(x0, y0)] # [simonRound tx ty k | (tx,ty) <-rounds
-                                            | k <-roundKeys]
-    (x,y) = rounds @ 32
+    rounds = [(x0, y0)] # [simonRound tx ty k | (tx,ty) <- rounds
+                                             | k <- roundKeys]
 
-testSimon : Bit
-testSimon = (x, y) == (0xc69b, 0xe9bb)
+    (x,y) = rounds @ `r
+
+simonEncrypt10 : ([4][16], [2][16]) -> ([16], [16])
+simonEncrypt10 input = simonEncryptRounds`{10} input
+
+simonEncrypt11 : ([4][16], [2][16]) -> ([16], [16])
+simonEncrypt11 input = simonEncryptRounds`{11} input
+
+simonEncrypt12 : ([4][16], [2][16]) -> ([16], [16])
+simonEncrypt12 input = simonEncryptRounds`{12} input
+
+simonEncrypt13 : ([4][16], [2][16]) -> ([16], [16])
+simonEncrypt13 input = simonEncryptRounds`{13} input
+
+simonEncrypt14 : ([4][16], [2][16]) -> ([16], [16])
+simonEncrypt14 input = simonEncryptRounds`{14} input
+
+testSimon10 : Bit
+testSimon10 = (x, y) == (0xB580, 0x4C08)
   where
-    (x, y) = simonEncrypt ([0x0100, 0x0908, 0x1110, 0x1918], [0x6565, 0x6877])
+    (x, y) = simonEncrypt10 ([0xCF3B, 0x1BED, 0xA195, 0xA847], [0xC1D9, 0xD5A3])
