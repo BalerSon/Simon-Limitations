@@ -4,7 +4,7 @@ let enc11 = {{ m::simonEncrypt11 }};
 
 let goal = {{ \key ->
   enc11 (key, [0xC1D9 : [16], 0xD5A3 : [16]])
-    == (0x1ACB : [16], 0xB580 : [16])
+    == (0x2309 : [16], 0xD32D : [16])
 }};
 
-write_cnf "simon32_64_r11_key1_b1.cnf" goal;
+write_cnf "simon32_64_r11_key2_b1.cnf" goal;
