@@ -1,0 +1,13 @@
+m <- cryptol_load "/home/balerso/Simon/Simon-Limitations/limitations/BASECNF/simon32-64_range_rounds.cry";
+
+let enc13 = {{ m::simonEncrypt13 }};
+
+let goal = {{ \key ->
+  (enc13 (key, [0xC1D9 : [16], 0xD5A3 : [16]])
+    == (0x5DE5 : [16], 0x9429 : [16]))
+    &&
+  (enc13 (key, [0xC1D9 : [16], 0xD5A3 : [16]])
+    == (0xE1C6 : [16], 0x2A99 : [16]))
+}};
+
+write_cnf "simon32_64_r13_key3_b2.cnf" goal;
