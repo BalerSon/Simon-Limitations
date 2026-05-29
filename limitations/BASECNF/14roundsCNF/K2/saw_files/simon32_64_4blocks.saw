@@ -1,0 +1,19 @@
+m <- cryptol_load "/home/balerso/Simon/Simon-Limitations/limitations/BASECNF/simon32-64_range_rounds.cry";
+
+let enc14 = {{ m::simonEncrypt14 }};
+
+let goal = {{ \key ->
+  (enc14 (key, [0xC1D9 : [16], 0xD5A3 : [16]])
+    == (0x10D3 : [16], 0xE91C : [16]))
+    &&
+  (enc14 (key, [0xC1D9 : [16], 0xD5A3 : [16]])
+    == (0x59ED : [16], 0x47A8 : [16]))
+    &&
+  (enc14 (key, [0xC1D9 : [16], 0xD5A3 : [16]])
+    == (0x7576 : [16], 0x8535 : [16]))
+    &&
+  (enc14 (key, [0xC1D9 : [16], 0xD5A3 : [16]])
+    == (0x27AB : [16], 0x2752 : [16]))
+}};
+
+write_cnf "simon32_64_r14_key2_b4.cnf" goal;
