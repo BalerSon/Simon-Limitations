@@ -1,57 +1,57 @@
 Rounds:    10
 Key_1:    0xA847A1951BEDCF3B
 
-# Blocks:    1
-# P_1:    0xC1D9D5A3
-# C_1:    0xB5804C08
+Blocks:    1
+P_1:    0xC1D9D5A3
+C_1:    0xB5804C08
 
 
-# Blocks:    2
-# P_1:    0xC1D9D5A3
-# C_1:    0xB5804C08
+Blocks:    2
+P_1:    0xC1D9D5A3
+C_1:    0xB5804C08
 
-# P_2:    0xEB2C643E
-# C_2:    0x91A13F0D
-
-
-# Blocks:    4
-# P_1:    0xC1D9D5A3
-# C_1:    0xB5804C08
-
-# P_2:    0xEB2C643E
-# C_2:    0x91A13F0D
-
-# P_3:    0x2ACB810B
-# C_3:    0x804EB083
-
-# P_4:    0xB6E3A056
-# C_4:    0x81A690EC
+P_2:    0xEB2C643E
+C_2:    0x91A13F0D
 
 
-# Blocks:    8
-# P_1:    0xC1D9D5A3
-# C_1:    0xB5804C08
+Blocks:    4
+P_1:    0xC1D9D5A3
+C_1:    0xB5804C08
 
-# P_2:    0xEB2C643E
-# C_2:    0x91A13F0D
+P_2:    0xEB2C643E
+C_2:    0x91A13F0D
 
-# P_3:    0x2ACB810B
-# C_3:    0x804EB083
+P_3:    0x2ACB810B
+C_3:    0x804EB083
 
-# P_4:    0xB6E3A056
-# C_4:    0x81A690EC
+P_4:    0xB6E3A056
+C_4:    0x81A690EC
 
-# P_5:    0xBF818F43
-# C_5:    0x580948D7
 
-# P_6:    0x5E8D67C8
-# C_6:    0xC33B0394
+Blocks:    8
+P_1:    0xC1D9D5A3
+C_1:    0xB5804C08
 
-# P_7:    0x30D97A7B
-# C_7:    0x79A50F7A
+P_2:    0xEB2C643E
+C_2:    0x91A13F0D
 
-# P_8:    0x3703B33A
-# C_8:    0x2A466390
+P_3:    0x2ACB810B
+C_3:    0x804EB083
+
+P_4:    0xB6E3A056
+C_4:    0x81A690EC
+
+P_5:    0xBF818F43
+C_5:    0x580948D7
+
+P_6:    0x5E8D67C8
+C_6:    0xC33B0394
+
+P_7:    0x30D97A7B
+C_7:    0x79A50F7A
+
+P_8:    0x3703B33A
+C_8:    0x2A466390
 
 
 
@@ -283,57 +283,57 @@ C_8:    0x334AB963
 Rounds:    11
 Key_1:    0xA847A1951BEDCF3B
 
-# Blocks:    1
-# P_1:    0xC1D9D5A3
-# C_1:    0x1ACBB580
+Blocks:    1
+P_1:    0xC1D9D5A3
+C_1:    0x1ACBB580
 
 
-# Blocks:    2
-# P_1:    0xC1D9D5A3
-# C_1:    0x1ACBB580
+Blocks:    2
+P_1:    0xC1D9D5A3
+C_1:    0x1ACBB580
 
-# P_2:    0xEB2C643E
-# C_2:    0xD84A91A1
-
-
-# Blocks:    4
-# P_1:    0xC1D9D5A3
-# C_1:    0x1ACBB580
-
-# P_2:    0xEB2C643E
-# C_2:    0xD84A91A1
-
-# P_3:    0x2ACB810B
-# C_3:    0x31F9804E
-
-# P_4:    0xB6E3A056
-# C_4:    0x14B781A6
+P_2:    0xEB2C643E
+C_2:    0xD84A91A1
 
 
-# Blocks:    8
-# P_1:    0xC1D9D5A3
-# C_1:    0x1ACBB580
+Blocks:    4
+P_1:    0xC1D9D5A3
+C_1:    0x1ACBB580
 
-# P_2:    0xEB2C643E
-# C_2:    0xD84A91A1
+P_2:    0xEB2C643E
+C_2:    0xD84A91A1
 
-# P_3:    0x2ACB810B
-# C_3:    0x31F9804E
+P_3:    0x2ACB810B
+C_3:    0x31F9804E
 
-# P_4:    0xB6E3A056
-# C_4:    0x14B781A6
+P_4:    0xB6E3A056
+C_4:    0x14B781A6
 
-# P_5:    0xBF818F43
-# C_5:    0xA8225809
 
-# P_6:    0x5E8D67C8
-# C_6:    0x8DF8C33B
+Blocks:    8
+P_1:    0xC1D9D5A3
+C_1:    0x1ACBB580
 
-# P_7:    0x30D97A7B
-# C_7:    0xC86779A5
+P_2:    0xEB2C643E
+C_2:    0xD84A91A1
 
-# P_8:    0x3703B33A
-# C_8:    0x0E402A46
+P_3:    0x2ACB810B
+C_3:    0x31F9804E
+
+P_4:    0xB6E3A056
+C_4:    0x14B781A6
+
+P_5:    0xBF818F43
+C_5:    0xA8225809
+
+P_6:    0x5E8D67C8
+C_6:    0x8DF8C33B
+
+P_7:    0x30D97A7B
+C_7:    0xC86779A5
+
+P_8:    0x3703B33A
+C_8:    0x0E402A46
 
 
 
