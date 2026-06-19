@@ -1,4 +1,4 @@
-# Map for SIMON32/64, rounds=10, blocks=1, with_rk
+# Map for SIMON32/64, rounds=12, blocks=1, with_rk
 # Format: name output_index
 
 # Ciphertext outputs
@@ -196,3 +196,35 @@ rk[9][12] output 188
 rk[9][13] output 189
 rk[9][14] output 190
 rk[9][15] output 191
+rk[10][0] output 192
+rk[10][1] output 193
+rk[10][2] output 194
+rk[10][3] output 195
+rk[10][4] output 196
+rk[10][5] output 197
+rk[10][6] output 198
+rk[10][7] output 199
+rk[10][8] output 200
+rk[10][9] output 201
+rk[10][10] output 202
+rk[10][11] output 203
+rk[10][12] output 204
+rk[10][13] output 205
+rk[10][14] output 206
+rk[10][15] output 207
+rk[11][0] output 208
+rk[11][1] output 209
+rk[11][2] output 210
+rk[11][3] output 211
+rk[11][4] output 212
+rk[11][5] output 213
+rk[11][6] output 214
+rk[11][7] output 215
+rk[11][8] output 216
+rk[11][9] output 217
+rk[11][10] output 218
+rk[11][11] output 219
+rk[11][12] output 220
+rk[11][13] output 221
+rk[11][14] output 222
+rk[11][15] output 223

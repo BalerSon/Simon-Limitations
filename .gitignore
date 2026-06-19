@@ -74,3 +74,5 @@ generator
 limitations/instruments/abc
 limitations/instruments/saw
 limitations/instruments/kissat
+
+.history
