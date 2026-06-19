@@ -1,0 +1,867 @@
+.:
+total 12
+drwxr-xr-x 4 balerso balerso 4096 Jun 19 17:43 BASECNF
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 17:41 LIMITEDCNF
+-rw-r--r-- 1 balerso balerso    0 Jun 19 20:49 file.txt
+drwxr-xr-x 4 balerso balerso 4096 Jun 19 17:43 instruments
+
+./BASECNF:
+total 8
+drwxr-xr-x 7 balerso balerso 4096 Jun 19 17:27 off_rk
+drwxr-xr-x 7 balerso balerso 4096 Jun 19 20:06 with_rk
+
+./BASECNF/off_rk:
+total 24
+drwxr-xr-x 7 balerso balerso 4096 Jun 19 15:07 10roundsCNF
+drwxr-xr-x 7 balerso balerso 4096 May 23 21:01 11roundsCNF
+drwxr-xr-x 7 balerso balerso 4096 May 23 20:11 12roundsCNF
+drwxr-xr-x 7 balerso balerso 4096 May 23 20:11 13roundsCNF
+drwxr-xr-x 7 balerso balerso 4096 May 23 20:11 14roundsCNF
+-rw-r--r-- 1 balerso balerso 1745 Jun 19 14:59 simon32-64_range_rounds.cry
+
+./BASECNF/off_rk/10roundsCNF:
+total 20
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 14:44 K1
+drwxr-xr-x 3 balerso balerso 4096 May 23 21:45 K2
+drwxr-xr-x 3 balerso balerso 4096 May 23 21:48 K3
+drwxr-xr-x 3 balerso balerso 4096 May 23 21:50 K4
+drwxr-xr-x 3 balerso balerso 4096 May 23 21:51 K5
+
+./BASECNF/off_rk/10roundsCNF/K1:
+total 1304
+drwxr-xr-x 2 balerso balerso   4096 May 23 21:01 saw_files
+-rw-r--r-- 1 balerso balerso 128591 May 23 21:01 simon32_64_r10_key1_b1.cnf
+-rw-r--r-- 1 balerso balerso 200037 May 23 21:01 simon32_64_r10_key1_b2.cnf
+-rw-r--r-- 1 balerso balerso 341998 May 23 21:01 simon32_64_r10_key1_b4.cnf
+-rw-r--r-- 1 balerso balerso 652989 May 23 21:01 simon32_64_r10_key1_b8.cnf
+
+./BASECNF/off_rk/10roundsCNF/K1/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 23 21:39 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 395 May 23 21:39 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 577 May 23 21:39 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 940 May 23 21:39 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/10roundsCNF/K2:
+total 1304
+drwxr-xr-x 2 balerso balerso   4096 May 23 21:45 saw_files
+-rw-r--r-- 1 balerso balerso 128591 May 23 21:40 simon32_64_r10_key2_b1.cnf
+-rw-r--r-- 1 balerso balerso 200037 May 23 21:44 simon32_64_r10_key2_b2.cnf
+-rw-r--r-- 1 balerso balerso 341998 May 23 21:45 simon32_64_r10_key2_b4.cnf
+-rw-r--r-- 1 balerso balerso 652989 May 23 21:45 simon32_64_r10_key2_b8.cnf
+
+./BASECNF/off_rk/10roundsCNF/K2/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 23 21:39 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 395 May 23 21:39 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 577 May 23 21:39 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 940 May 23 21:39 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/10roundsCNF/K3:
+total 1304
+drwxr-xr-x 2 balerso balerso   4096 May 23 21:48 saw_files
+-rw-r--r-- 1 balerso balerso 128591 May 23 21:48 simon32_64_r10_key3_b1.cnf
+-rw-r--r-- 1 balerso balerso 200037 May 23 21:48 simon32_64_r10_key3_b2.cnf
+-rw-r--r-- 1 balerso balerso 341998 May 23 21:47 simon32_64_r10_key3_b4.cnf
+-rw-r--r-- 1 balerso balerso 652989 May 23 21:47 simon32_64_r10_key3_b8.cnf
+
+./BASECNF/off_rk/10roundsCNF/K3/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 23 21:39 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 395 May 23 21:47 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 577 May 23 21:39 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 940 May 23 21:39 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/10roundsCNF/K4:
+total 1304
+drwxr-xr-x 2 balerso balerso   4096 May 23 21:50 saw_files
+-rw-r--r-- 1 balerso balerso 128591 May 23 21:50 simon32_64_r10_key4_b1.cnf
+-rw-r--r-- 1 balerso balerso 200037 May 23 21:50 simon32_64_r10_key4_b2.cnf
+-rw-r--r-- 1 balerso balerso 341998 May 23 21:50 simon32_64_r10_key4_b4.cnf
+-rw-r--r-- 1 balerso balerso 652989 May 23 21:50 simon32_64_r10_key4_b8.cnf
+
+./BASECNF/off_rk/10roundsCNF/K4/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 23 21:39 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 395 May 23 21:39 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 577 May 23 21:39 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 940 May 23 21:39 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/10roundsCNF/K5:
+total 1304
+drwxr-xr-x 2 balerso balerso   4096 May 23 21:51 saw_files
+-rw-r--r-- 1 balerso balerso 128591 May 23 21:51 simon32_64_r10_key5_b1.cnf
+-rw-r--r-- 1 balerso balerso 200037 May 23 21:51 simon32_64_r10_key5_b2.cnf
+-rw-r--r-- 1 balerso balerso 341998 May 23 21:51 simon32_64_r10_key5_b4.cnf
+-rw-r--r-- 1 balerso balerso 652989 May 23 21:51 simon32_64_r10_key5_b8.cnf
+
+./BASECNF/off_rk/10roundsCNF/K5/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 23 21:40 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 395 May 23 21:40 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 577 May 23 21:40 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 940 May 23 21:40 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/11roundsCNF:
+total 20
+drwxr-xr-x 3 balerso balerso 4096 May 23 21:55 K1
+drwxr-xr-x 3 balerso balerso 4096 May 23 22:21 K2
+drwxr-xr-x 3 balerso balerso 4096 May 23 22:26 K3
+drwxr-xr-x 3 balerso balerso 4096 May 23 22:31 K4
+drwxr-xr-x 3 balerso balerso 4096 May 23 22:37 K5
+
+./BASECNF/off_rk/11roundsCNF/K1:
+total 1460
+drwxr-xr-x 2 balerso balerso   4096 May 23 21:55 saw_files
+-rw-r--r-- 1 balerso balerso 146208 May 23 21:55 simon32_64_r11_key1_b1.cnf
+-rw-r--r-- 1 balerso balerso 224853 May 23 21:55 simon32_64_r11_key1_b2.cnf
+-rw-r--r-- 1 balerso balerso 381214 May 23 21:55 simon32_64_r11_key1_b4.cnf
+-rw-r--r-- 1 balerso balerso 730775 May 23 21:55 simon32_64_r11_key1_b8.cnf
+
+./BASECNF/off_rk/11roundsCNF/K1/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 302 May 23 21:54 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 394 May 23 21:55 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 574 May 23 21:55 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 935 May 23 21:55 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/11roundsCNF/K2:
+total 1460
+drwxr-xr-x 2 balerso balerso   4096 May 23 22:21 saw_files
+-rw-r--r-- 1 balerso balerso 146208 May 23 22:17 simon32_64_r11_key2_b1.cnf
+-rw-r--r-- 1 balerso balerso 224853 May 23 22:21 simon32_64_r11_key2_b2.cnf
+-rw-r--r-- 1 balerso balerso 381214 May 23 22:21 simon32_64_r11_key2_b4.cnf
+-rw-r--r-- 1 balerso balerso 730775 May 23 22:21 simon32_64_r11_key2_b8.cnf
+
+./BASECNF/off_rk/11roundsCNF/K2/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 302 May 23 22:13 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 394 May 23 22:21 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 574 May 23 22:21 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 935 May 23 22:21 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/11roundsCNF/K3:
+total 1460
+drwxr-xr-x 2 balerso balerso   4096 May 23 22:26 saw_files
+-rw-r--r-- 1 balerso balerso 146208 May 23 22:26 simon32_64_r11_key3_b1.cnf
+-rw-r--r-- 1 balerso balerso 224853 May 23 22:26 simon32_64_r11_key3_b2.cnf
+-rw-r--r-- 1 balerso balerso 381214 May 23 22:26 simon32_64_r11_key3_b4.cnf
+-rw-r--r-- 1 balerso balerso 730775 May 23 22:25 simon32_64_r11_key3_b8.cnf
+
+./BASECNF/off_rk/11roundsCNF/K3/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 23 22:22 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 394 May 23 22:23 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 574 May 23 22:23 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 935 May 23 22:25 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/11roundsCNF/K4:
+total 1460
+drwxr-xr-x 2 balerso balerso   4096 May 23 22:31 saw_files
+-rw-r--r-- 1 balerso balerso 146208 May 23 22:30 simon32_64_r11_key4_b1.cnf
+-rw-r--r-- 1 balerso balerso 224853 May 23 22:31 simon32_64_r11_key4_b2.cnf
+-rw-r--r-- 1 balerso balerso 381214 May 23 22:31 simon32_64_r11_key4_b4.cnf
+-rw-r--r-- 1 balerso balerso 730775 May 23 22:31 simon32_64_r11_key4_b8.cnf
+
+./BASECNF/off_rk/11roundsCNF/K4/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 23 22:27 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 395 May 23 22:27 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 575 May 23 22:29 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 936 May 23 22:30 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/11roundsCNF/K5:
+total 1460
+drwxr-xr-x 2 balerso balerso   4096 May 23 22:37 saw_files
+-rw-r--r-- 1 balerso balerso 146208 May 23 22:36 simon32_64_r11_key5_b1.cnf
+-rw-r--r-- 1 balerso balerso 224853 May 23 22:36 simon32_64_r11_key5_b2.cnf
+-rw-r--r-- 1 balerso balerso 381214 May 23 22:37 simon32_64_r11_key5_b4.cnf
+-rw-r--r-- 1 balerso balerso 730775 May 23 22:37 simon32_64_r11_key5_b8.cnf
+
+./BASECNF/off_rk/11roundsCNF/K5/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 23 22:33 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 394 May 23 22:33 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 574 May 23 22:34 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 935 May 23 22:37 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/12roundsCNF:
+total 20
+drwxr-xr-x 3 balerso balerso 4096 May 23 22:47 K1
+drwxr-xr-x 3 balerso balerso 4096 May 29 14:31 K2
+drwxr-xr-x 3 balerso balerso 4096 May 29 14:38 K3
+drwxr-xr-x 3 balerso balerso 4096 May 29 14:47 K4
+drwxr-xr-x 3 balerso balerso 4096 May 29 14:52 K5
+
+./BASECNF/off_rk/12roundsCNF/K1:
+total 1612
+drwxr-xr-x 2 balerso balerso   4096 May 23 22:47 saw_files
+-rw-r--r-- 1 balerso balerso 163824 May 23 22:47 simon32_64_r12_key1_b1.cnf
+-rw-r--r-- 1 balerso balerso 249669 May 23 22:47 simon32_64_r12_key1_b2.cnf
+-rw-r--r-- 1 balerso balerso 420430 May 23 22:46 simon32_64_r12_key1_b4.cnf
+-rw-r--r-- 1 balerso balerso 808813 May 23 22:46 simon32_64_r12_key1_b8.cnf
+
+./BASECNF/off_rk/12roundsCNF/K1/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 302 May 23 22:41 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 394 May 23 22:47 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 574 May 23 22:45 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 935 May 23 22:46 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/12roundsCNF/K2:
+total 1612
+drwxr-xr-x 2 balerso balerso   4096 May 29 14:31 saw_files
+-rw-r--r-- 1 balerso balerso 163824 May 29 14:30 simon32_64_r12_key1_b1.cnf
+-rw-r--r-- 1 balerso balerso 249669 May 29 14:30 simon32_64_r12_key1_b2.cnf
+-rw-r--r-- 1 balerso balerso 420430 May 29 14:30 simon32_64_r12_key1_b4.cnf
+-rw-r--r-- 1 balerso balerso 808813 May 29 14:30 simon32_64_r12_key1_b8.cnf
+
+./BASECNF/off_rk/12roundsCNF/K2/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 24 23:27 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 394 May 24 23:27 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 574 May 24 23:28 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 935 May 24 23:32 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/12roundsCNF/K3:
+total 1612
+drwxr-xr-x 2 balerso balerso   4096 May 29 14:38 saw_files
+-rw-r--r-- 1 balerso balerso 163824 May 29 14:38 simon32_64_r12_key3_b1.cnf
+-rw-r--r-- 1 balerso balerso 249669 May 29 14:37 simon32_64_r12_key3_b2.cnf
+-rw-r--r-- 1 balerso balerso 420430 May 29 14:37 simon32_64_r12_key3_b4.cnf
+-rw-r--r-- 1 balerso balerso 808813 May 29 14:37 simon32_64_r12_key3_b8.cnf
+
+./BASECNF/off_rk/12roundsCNF/K3/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 14:33 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 394 May 29 14:34 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 574 May 29 14:35 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 935 May 29 14:37 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/12roundsCNF/K4:
+total 1612
+drwxr-xr-x 2 balerso balerso   4096 May 29 14:47 saw_files
+-rw-r--r-- 1 balerso balerso 163824 May 29 14:47 simon32_64_r12_key4_b1.cnf
+-rw-r--r-- 1 balerso balerso 249669 May 29 14:47 simon32_64_r12_key4_b2.cnf
+-rw-r--r-- 1 balerso balerso 420430 May 29 14:47 simon32_64_r12_key4_b4.cnf
+-rw-r--r-- 1 balerso balerso 808813 May 29 14:47 simon32_64_r12_key4_b8.cnf
+
+./BASECNF/off_rk/12roundsCNF/K4/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 14:44 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 394 May 29 14:44 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 574 May 29 14:45 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 935 May 29 14:47 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/12roundsCNF/K5:
+total 1612
+drwxr-xr-x 2 balerso balerso   4096 May 29 14:52 saw_files
+-rw-r--r-- 1 balerso balerso 163824 May 29 14:52 simon32_64_r12_key5_b1.cnf
+-rw-r--r-- 1 balerso balerso 249669 May 29 14:51 simon32_64_r12_key5_b2.cnf
+-rw-r--r-- 1 balerso balerso 420430 May 29 14:51 simon32_64_r12_key5_b4.cnf
+-rw-r--r-- 1 balerso balerso 808813 May 29 14:51 simon32_64_r12_key5_b8.cnf
+
+./BASECNF/off_rk/12roundsCNF/K5/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 14:49 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 394 May 29 14:49 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 574 May 29 14:50 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 935 May 29 14:51 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/13roundsCNF:
+total 20
+drwxr-xr-x 3 balerso balerso 4096 May 29 15:18 K1
+drwxr-xr-x 3 balerso balerso 4096 May 29 15:22 K2
+drwxr-xr-x 3 balerso balerso 4096 May 29 15:25 K3
+drwxr-xr-x 3 balerso balerso 4096 May 29 15:29 K4
+drwxr-xr-x 3 balerso balerso 4096 May 29 15:33 K5
+
+./BASECNF/off_rk/13roundsCNF/K1:
+total 744
+drwxr-xr-x 2 balerso balerso   4096 May 29 15:18 saw_files
+-rw-r--r-- 1 balerso balerso 181440 May 29 15:18 simon32_64_r13_key1_b1.cnf
+-rw-r--r-- 1 balerso balerso 184254 May 29 15:18 simon32_64_r13_key1_b2.cnf
+-rw-r--r-- 1 balerso balerso 188619 May 29 15:18 simon32_64_r13_key1_b4.cnf
+-rw-r--r-- 1 balerso balerso 194319 May 29 15:17 simon32_64_r13_key1_b8.cnf
+
+./BASECNF/off_rk/13roundsCNF/K1/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 15:13 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 397 May 29 15:17 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 583 May 29 15:17 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 955 May 29 15:17 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/13roundsCNF/K2:
+total 748
+drwxr-xr-x 2 balerso balerso   4096 May 29 15:22 saw_files
+-rw-r--r-- 1 balerso balerso 181440 May 29 15:21 simon32_64_r13_key2_b1.cnf
+-rw-r--r-- 1 balerso balerso 185010 May 29 15:22 simon32_64_r13_key2_b2.cnf
+-rw-r--r-- 1 balerso balerso 189360 May 29 15:22 simon32_64_r13_key2_b4.cnf
+-rw-r--r-- 1 balerso balerso 194331 May 29 15:22 simon32_64_r13_key2_b8.cnf
+
+./BASECNF/off_rk/13roundsCNF/K2/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 15:21 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 397 May 29 15:21 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 583 May 29 15:21 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 955 May 29 15:21 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/13roundsCNF/K3:
+total 748
+drwxr-xr-x 2 balerso balerso   4096 May 29 15:25 saw_files
+-rw-r--r-- 1 balerso balerso 181440 May 29 15:25 simon32_64_r13_key3_b1.cnf
+-rw-r--r-- 1 balerso balerso 185049 May 29 15:25 simon32_64_r13_key3_b2.cnf
+-rw-r--r-- 1 balerso balerso 189225 May 29 15:25 simon32_64_r13_key3_b4.cnf
+-rw-r--r-- 1 balerso balerso 194814 May 29 15:25 simon32_64_r13_key3_b8.cnf
+
+./BASECNF/off_rk/13roundsCNF/K3/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 15:23 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 397 May 29 15:23 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 583 May 29 15:24 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 956 May 29 15:25 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/13roundsCNF/K4:
+total 748
+drwxr-xr-x 2 balerso balerso   4096 May 29 15:29 saw_files
+-rw-r--r-- 1 balerso balerso 181440 May 29 15:29 simon32_64_r13_key4_b1.cnf
+-rw-r--r-- 1 balerso balerso 184680 May 29 15:29 simon32_64_r13_key4_b2.cnf
+-rw-r--r-- 1 balerso balerso 189192 May 29 15:29 simon32_64_r13_key4_b4.cnf
+-rw-r--r-- 1 balerso balerso 194511 May 29 15:29 simon32_64_r13_key4_b8.cnf
+
+./BASECNF/off_rk/13roundsCNF/K4/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 15:26 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 397 May 29 15:27 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 583 May 29 15:28 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 956 May 29 15:29 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/13roundsCNF/K5:
+total 748
+drwxr-xr-x 2 balerso balerso   4096 May 29 15:33 saw_files
+-rw-r--r-- 1 balerso balerso 181440 May 29 15:33 simon32_64_r13_key5_b1.cnf
+-rw-r--r-- 1 balerso balerso 184680 May 29 15:33 simon32_64_r13_key5_b2.cnf
+-rw-r--r-- 1 balerso balerso 188766 May 29 15:33 simon32_64_r13_key5_b4.cnf
+-rw-r--r-- 1 balerso balerso 194544 May 29 15:33 simon32_64_r13_key5_b8.cnf
+
+./BASECNF/off_rk/13roundsCNF/K5/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 15:31 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 397 May 29 15:31 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 583 May 29 15:32 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 956 May 29 15:33 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/14roundsCNF:
+total 20
+drwxr-xr-x 3 balerso balerso 4096 May 29 15:41 K1
+drwxr-xr-x 3 balerso balerso 4096 May 29 15:45 K2
+drwxr-xr-x 3 balerso balerso 4096 May 29 15:48 K3
+drwxr-xr-x 3 balerso balerso 4096 May 29 15:53 K4
+drwxr-xr-x 3 balerso balerso 4096 May 29 15:57 K5
+
+./BASECNF/off_rk/14roundsCNF/K1:
+total 812
+drwxr-xr-x 2 balerso balerso   4096 May 29 15:41 saw_files
+-rw-r--r-- 1 balerso balerso 199056 May 29 15:41 simon32_64_r14_key1_b1.cnf
+-rw-r--r-- 1 balerso balerso 201456 May 29 15:41 simon32_64_r14_key1_b2.cnf
+-rw-r--r-- 1 balerso balerso 206739 May 29 15:41 simon32_64_r14_key1_b4.cnf
+-rw-r--r-- 1 balerso balerso 212160 May 29 15:41 simon32_64_r14_key1_b8.cnf
+
+./BASECNF/off_rk/14roundsCNF/K1/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 15:39 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 397 May 29 15:39 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 583 May 29 15:40 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 956 May 29 15:41 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/14roundsCNF/K2:
+total 812
+drwxr-xr-x 2 balerso balerso   4096 May 29 15:45 saw_files
+-rw-r--r-- 1 balerso balerso 199056 May 29 15:45 simon32_64_r14_key2_b1.cnf
+-rw-r--r-- 1 balerso balerso 202626 May 29 15:45 simon32_64_r14_key2_b2.cnf
+-rw-r--r-- 1 balerso balerso 206892 May 29 15:45 simon32_64_r14_key2_b4.cnf
+-rw-r--r-- 1 balerso balerso 212442 May 29 15:45 simon32_64_r14_key2_b8.cnf
+
+./BASECNF/off_rk/14roundsCNF/K2/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 15:42 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 397 May 29 15:43 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 583 May 29 15:43 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 956 May 29 15:45 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/14roundsCNF/K3:
+total 812
+drwxr-xr-x 2 balerso balerso   4096 May 29 15:48 saw_files
+-rw-r--r-- 1 balerso balerso 199056 May 29 15:48 simon32_64_r14_key3_b1.cnf
+-rw-r--r-- 1 balerso balerso 202827 May 29 15:48 simon32_64_r14_key3_b2.cnf
+-rw-r--r-- 1 balerso balerso 206919 May 29 15:48 simon32_64_r14_key3_b4.cnf
+-rw-r--r-- 1 balerso balerso 212295 May 29 15:48 simon32_64_r14_key3_b8.cnf
+
+./BASECNF/off_rk/14roundsCNF/K3/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 15:46 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 397 May 29 15:46 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 583 May 29 15:47 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 956 May 29 15:48 simon32_64_8blocks.saw
+
+./BASECNF/off_rk/14roundsCNF/K4:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 May 29 15:53 saw_files
+
+./BASECNF/off_rk/14roundsCNF/K4/saw_files:
+total 824
+-rwxr-xr-x 1 balerso balerso    304 May 29 15:49 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso    397 May 29 15:50 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso    583 May 29 15:50 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso    956 May 29 15:51 simon32_64_8blocks.saw
+-rw-r--r-- 1 balerso balerso 199056 May 29 15:52 simon32_64_r14_key4_b1.cnf
+-rw-r--r-- 1 balerso balerso 202296 May 29 15:52 simon32_64_r14_key4_b2.cnf
+-rw-r--r-- 1 balerso balerso 206829 May 29 15:52 simon32_64_r14_key4_b4.cnf
+-rw-r--r-- 1 balerso balerso 212070 May 29 15:52 simon32_64_r14_key4_b8.cnf
+
+./BASECNF/off_rk/14roundsCNF/K5:
+total 812
+drwxr-xr-x 2 balerso balerso   4096 May 29 15:57 saw_files
+-rw-r--r-- 1 balerso balerso 199056 May 29 15:57 simon32_64_r14_key5_b1.cnf
+-rw-r--r-- 1 balerso balerso 202173 May 29 15:57 simon32_64_r14_key5_b2.cnf
+-rw-r--r-- 1 balerso balerso 206763 May 29 15:57 simon32_64_r14_key5_b4.cnf
+-rw-r--r-- 1 balerso balerso 212475 May 29 15:57 simon32_64_r14_key5_b8.cnf
+
+./BASECNF/off_rk/14roundsCNF/K5/saw_files:
+total 16
+-rwxr-xr-x 1 balerso balerso 304 May 29 15:54 simon32_64_1block.saw
+-rwxr-xr-x 1 balerso balerso 397 May 29 15:54 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 583 May 29 15:55 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 956 May 29 15:57 simon32_64_8blocks.saw
+
+./BASECNF/with_rk:
+total 28
+drwxr-xr-x 8 balerso balerso 4096 Jun 19 20:01 10roundsCNF
+drwxr-xr-x 8 balerso balerso 4096 Jun 19 19:56 11roundsCNF
+drwxr-xr-x 8 balerso balerso 4096 Jun 19 20:26 12roundsCNF
+drwxr-xr-x 8 balerso balerso 4096 Jun 19 20:26 13roundsCNF
+drwxr-xr-x 8 balerso balerso 4096 Jun 19 20:26 14roundsCNF
+-rw-r--r-- 1 balerso balerso 2008 Jun 19 15:00 simon32-64_range_rounds_with_rk.cry
+-rw-r--r-- 1 balerso balerso 2789 Jun 19 20:23 simon32_64_wrappers.cry
+
+./BASECNF/with_rk/10roundsCNF:
+total 24
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:34 K1
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:35 K2
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:35 K3
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:35 K4
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:35 K5
+drwxr-xr-x 6 balerso balerso 4096 Jun 19 20:46 shared
+
+./BASECNF/with_rk/10roundsCNF/K1:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:34 instances
+
+./BASECNF/with_rk/10roundsCNF/K1/instances:
+total 0
+
+./BASECNF/with_rk/10roundsCNF/K2:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:35 instances
+
+./BASECNF/with_rk/10roundsCNF/K2/instances:
+total 0
+
+./BASECNF/with_rk/10roundsCNF/K3:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:35 instances
+
+./BASECNF/with_rk/10roundsCNF/K3/instances:
+total 0
+
+./BASECNF/with_rk/10roundsCNF/K4:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:35 instances
+
+./BASECNF/with_rk/10roundsCNF/K4/instances:
+total 0
+
+./BASECNF/with_rk/10roundsCNF/K5:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:35 instances
+
+./BASECNF/with_rk/10roundsCNF/K5/instances:
+total 0
+
+./BASECNF/with_rk/10roundsCNF/shared:
+total 16
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:33 aigs
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:46 cnfs
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:26 maps
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:25 saw_files
+
+./BASECNF/with_rk/10roundsCNF/shared/aigs:
+total 172
+-rw-r--r-- 1 balerso balerso  8484 Jun 19 18:00 simon32_64_r10_b1_with_rk.aig
+-rw-r--r-- 1 balerso balerso  7315 Jun 19 20:33 simon32_64_r10_b1_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 12568 Jun 19 20:16 simon32_64_r10_b2_with_rk.aig
+-rw-r--r-- 1 balerso balerso 11547 Jun 19 20:33 simon32_64_r10_b2_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 20771 Jun 19 20:30 simon32_64_r10_b4_with_rk.aig
+-rw-r--r-- 1 balerso balerso 20055 Jun 19 20:33 simon32_64_r10_b4_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 38485 Jun 19 20:30 simon32_64_r10_b8_with_rk.aig
+-rw-r--r-- 1 balerso balerso 38219 Jun 19 20:33 simon32_64_r10_b8_with_rk_opt.aig
+
+./BASECNF/with_rk/10roundsCNF/shared/cnfs:
+total 676
+-rw-r--r-- 1 balerso balerso  53816 Jun 19 20:45 simon32_64_r10_b1_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso  96435 Jun 19 20:45 simon32_64_r10_b2_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 181252 Jun 19 20:45 simon32_64_r10_b4_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 350884 Jun 19 20:45 simon32_64_r10_b8_with_rk_opt.cnf
+
+./BASECNF/with_rk/10roundsCNF/shared/maps:
+total 4
+-rw-r--r-- 1 balerso balerso 1164 Jun 19 19:26 simon32_64_r10_b1_with_rk_map.txt
+
+./BASECNF/with_rk/10roundsCNF/shared/saw_files:
+total 16
+-rw-r--r-- 1 balerso balerso 210 Jun 19 20:24 simon32_64_1blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:24 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:24 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:24 simon32_64_8blocks.saw
+
+./BASECNF/with_rk/11roundsCNF:
+total 24
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K1
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K2
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K3
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K4
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K5
+drwxr-xr-x 6 balerso balerso 4096 Jun 19 20:46 shared
+
+./BASECNF/with_rk/11roundsCNF/K1:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/11roundsCNF/K1/instances:
+total 0
+
+./BASECNF/with_rk/11roundsCNF/K2:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/11roundsCNF/K2/instances:
+total 0
+
+./BASECNF/with_rk/11roundsCNF/K3:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/11roundsCNF/K3/instances:
+total 0
+
+./BASECNF/with_rk/11roundsCNF/K4:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/11roundsCNF/K4/instances:
+total 0
+
+./BASECNF/with_rk/11roundsCNF/K5:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/11roundsCNF/K5/instances:
+total 0
+
+./BASECNF/with_rk/11roundsCNF/shared:
+total 16
+-rw-r--r-- 1 balerso balerso    0 Jun 19 20:46 abc.history
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:37 aigs
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:46 cnfs
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:25 maps
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:25 saw_files
+
+./BASECNF/with_rk/11roundsCNF/shared/aigs:
+total 192
+-rw-r--r-- 1 balerso balerso  9588 Jun 19 20:35 simon32_64_r11_b1_with_rk.aig
+-rw-r--r-- 1 balerso balerso  8202 Jun 19 20:37 simon32_64_r11_b1_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 14088 Jun 19 20:35 simon32_64_r11_b2_with_rk.aig
+-rw-r--r-- 1 balerso balerso 12846 Jun 19 20:37 simon32_64_r11_b2_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 23059 Jun 19 20:35 simon32_64_r11_b4_with_rk.aig
+-rw-r--r-- 1 balerso balerso 22181 Jun 19 20:37 simon32_64_r11_b4_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 42613 Jun 19 20:35 simon32_64_r11_b8_with_rk.aig
+-rw-r--r-- 1 balerso balerso 42451 Jun 19 20:37 simon32_64_r11_b8_with_rk_opt.aig
+
+./BASECNF/with_rk/11roundsCNF/shared/cnfs:
+total 752
+-rw-r--r-- 1 balerso balerso  61679 Jun 19 20:46 simon32_64_r11_b1_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 108319 Jun 19 20:46 simon32_64_r11_b2_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 201600 Jun 19 20:46 simon32_64_r11_b4_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 388160 Jun 19 20:46 simon32_64_r11_b8_with_rk_opt.cnf
+
+./BASECNF/with_rk/11roundsCNF/shared/maps:
+total 0
+
+./BASECNF/with_rk/11roundsCNF/shared/saw_files:
+total 16
+-rw-r--r-- 1 balerso balerso 210 Jun 19 20:25 simon32_64_1blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:25 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:25 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:25 simon32_64_8blocks.saw
+
+./BASECNF/with_rk/12roundsCNF:
+total 24
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K1
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K2
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K3
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K4
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K5
+drwxr-xr-x 6 balerso balerso 4096 Jun 19 20:47 shared
+
+./BASECNF/with_rk/12roundsCNF/K1:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/12roundsCNF/K1/instances:
+total 0
+
+./BASECNF/with_rk/12roundsCNF/K2:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/12roundsCNF/K2/instances:
+total 0
+
+./BASECNF/with_rk/12roundsCNF/K3:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/12roundsCNF/K3/instances:
+total 0
+
+./BASECNF/with_rk/12roundsCNF/K4:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/12roundsCNF/K4/instances:
+total 0
+
+./BASECNF/with_rk/12roundsCNF/K5:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/12roundsCNF/K5/instances:
+total 0
+
+./BASECNF/with_rk/12roundsCNF/shared:
+total 16
+-rw-r--r-- 1 balerso balerso    0 Jun 19 20:47 abc.history
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:38 aigs
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:47 cnfs
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:26 maps
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:26 saw_files
+
+./BASECNF/with_rk/12roundsCNF/shared/aigs:
+total 204
+-rw-r--r-- 1 balerso balerso 10692 Jun 19 20:35 simon32_64_r12_b1_with_rk.aig
+-rw-r--r-- 1 balerso balerso  9084 Jun 19 20:38 simon32_64_r12_b1_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 15576 Jun 19 20:35 simon32_64_r12_b2_with_rk.aig
+-rw-r--r-- 1 balerso balerso 14151 Jun 19 20:38 simon32_64_r12_b2_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 25379 Jun 19 20:36 simon32_64_r12_b4_with_rk.aig
+-rw-r--r-- 1 balerso balerso 24308 Jun 19 20:38 simon32_64_r12_b4_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 46693 Jun 19 20:36 simon32_64_r12_b8_with_rk.aig
+-rw-r--r-- 1 balerso balerso 46378 Jun 19 20:38 simon32_64_r12_b8_with_rk_opt.aig
+
+./BASECNF/with_rk/12roundsCNF/shared/cnfs:
+total 824
+-rw-r--r-- 1 balerso balerso  69316 Jun 19 20:47 simon32_64_r12_b1_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 120193 Jun 19 20:47 simon32_64_r12_b2_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 221948 Jun 19 20:47 simon32_64_r12_b4_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 425456 Jun 19 20:47 simon32_64_r12_b8_with_rk_opt.cnf
+
+./BASECNF/with_rk/12roundsCNF/shared/maps:
+total 0
+
+./BASECNF/with_rk/12roundsCNF/shared/saw_files:
+total 16
+-rw-r--r-- 1 balerso balerso 210 Jun 19 20:28 simon32_64_1blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:28 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:28 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:28 simon32_64_8blocks.saw
+
+./BASECNF/with_rk/13roundsCNF:
+total 24
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K1
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K2
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K3
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K4
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K5
+drwxr-xr-x 6 balerso balerso 4096 Jun 19 20:47 shared
+
+./BASECNF/with_rk/13roundsCNF/K1:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/13roundsCNF/K1/instances:
+total 0
+
+./BASECNF/with_rk/13roundsCNF/K2:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/13roundsCNF/K2/instances:
+total 0
+
+./BASECNF/with_rk/13roundsCNF/K3:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/13roundsCNF/K3/instances:
+total 0
+
+./BASECNF/with_rk/13roundsCNF/K4:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/13roundsCNF/K4/instances:
+total 0
+
+./BASECNF/with_rk/13roundsCNF/K5:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/13roundsCNF/K5/instances:
+total 0
+
+./BASECNF/with_rk/13roundsCNF/shared:
+total 16
+-rw-r--r-- 1 balerso balerso    0 Jun 19 20:47 abc.history
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:38 aigs
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:47 cnfs
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:26 maps
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:26 saw_files
+
+./BASECNF/with_rk/13roundsCNF/shared/aigs:
+total 220
+-rw-r--r-- 1 balerso balerso 11796 Jun 19 20:36 simon32_64_r13_b1_with_rk.aig
+-rw-r--r-- 1 balerso balerso  9990 Jun 19 20:38 simon32_64_r13_b1_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 17064 Jun 19 20:36 simon32_64_r13_b2_with_rk.aig
+-rw-r--r-- 1 balerso balerso 15480 Jun 19 20:38 simon32_64_r13_b2_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 27813 Jun 19 20:36 simon32_64_r13_b4_with_rk.aig
+-rw-r--r-- 1 balerso balerso 26501 Jun 19 20:38 simon32_64_r13_b4_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 50853 Jun 19 20:36 simon32_64_r13_b8_with_rk.aig
+-rw-r--r-- 1 balerso balerso 50412 Jun 19 20:38 simon32_64_r13_b8_with_rk_opt.aig
+
+./BASECNF/with_rk/13roundsCNF/shared/cnfs:
+total 904
+-rw-r--r-- 1 balerso balerso  77060 Jun 19 20:47 simon32_64_r13_b1_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 132204 Jun 19 20:47 simon32_64_r13_b2_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 242493 Jun 19 20:47 simon32_64_r13_b4_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 463069 Jun 19 20:47 simon32_64_r13_b8_with_rk_opt.cnf
+
+./BASECNF/with_rk/13roundsCNF/shared/maps:
+total 0
+
+./BASECNF/with_rk/13roundsCNF/shared/saw_files:
+total 16
+-rw-r--r-- 1 balerso balerso 210 Jun 19 20:28 simon32_64_1blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:28 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:28 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:28 simon32_64_8blocks.saw
+
+./BASECNF/with_rk/14roundsCNF:
+total 24
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K1
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K2
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K3
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K4
+drwxr-xr-x 3 balerso balerso 4096 Jun 19 19:56 K5
+drwxr-xr-x 6 balerso balerso 4096 Jun 19 20:47 shared
+
+./BASECNF/with_rk/14roundsCNF/K1:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/14roundsCNF/K1/instances:
+total 0
+
+./BASECNF/with_rk/14roundsCNF/K2:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/14roundsCNF/K2/instances:
+total 0
+
+./BASECNF/with_rk/14roundsCNF/K3:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/14roundsCNF/K3/instances:
+total 0
+
+./BASECNF/with_rk/14roundsCNF/K4:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/14roundsCNF/K4/instances:
+total 0
+
+./BASECNF/with_rk/14roundsCNF/K5:
+total 4
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 19:56 instances
+
+./BASECNF/with_rk/14roundsCNF/K5/instances:
+total 0
+
+./BASECNF/with_rk/14roundsCNF/shared:
+total 16
+-rw-r--r-- 1 balerso balerso    0 Jun 19 20:47 abc.history
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:39 aigs
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:47 cnfs
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:26 maps
+drwxr-xr-x 2 balerso balerso 4096 Jun 19 20:26 saw_files
+
+./BASECNF/with_rk/14roundsCNF/shared/aigs:
+total 244
+-rw-r--r-- 1 balerso balerso 12900 Jun 19 20:36 simon32_64_r14_b1_with_rk.aig
+-rw-r--r-- 1 balerso balerso 10840 Jun 19 20:39 simon32_64_r14_b1_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 18552 Jun 19 20:36 simon32_64_r14_b2_with_rk.aig
+-rw-r--r-- 1 balerso balerso 16739 Jun 19 20:39 simon32_64_r14_b2_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 30165 Jun 19 20:36 simon32_64_r14_b4_with_rk.aig
+-rw-r--r-- 1 balerso balerso 28878 Jun 19 20:39 simon32_64_r14_b4_with_rk_opt.aig
+-rw-r--r-- 1 balerso balerso 54869 Jun 19 20:36 simon32_64_r14_b8_with_rk.aig
+-rw-r--r-- 1 balerso balerso 54548 Jun 19 20:39 simon32_64_r14_b8_with_rk_opt.aig
+
+./BASECNF/with_rk/14roundsCNF/shared/cnfs:
+total 980
+-rw-r--r-- 1 balerso balerso  84884 Jun 19 20:47 simon32_64_r14_b1_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 144304 Jun 19 20:47 simon32_64_r14_b2_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 263145 Jun 19 20:47 simon32_64_r14_b4_with_rk_opt.cnf
+-rw-r--r-- 1 balerso balerso 500825 Jun 19 20:47 simon32_64_r14_b8_with_rk_opt.cnf
+
+./BASECNF/with_rk/14roundsCNF/shared/maps:
+total 0
+
+./BASECNF/with_rk/14roundsCNF/shared/saw_files:
+total 16
+-rw-r--r-- 1 balerso balerso 210 Jun 19 20:29 simon32_64_1blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:29 simon32_64_2blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:29 simon32_64_4blocks.saw
+-rwxr-xr-x 1 balerso balerso 210 Jun 19 20:29 simon32_64_8blocks.saw
+
+./LIMITEDCNF:
+total 0
+
+./instruments:
+total 289944
+-rwxr-xr-x 1 balerso balerso 158293920 May 30 14:27 abc
+drwxr-xr-x 2 balerso balerso      4096 Jun 19 15:08 data_gen
+-rwxr-xr-x 1 balerso balerso    534040 May 23 21:01 kissat
+-rwxr-xr-x 1 balerso balerso 138047576 May 23 21:01 saw
+-rw-r--r-- 1 balerso balerso      2952 May 23 21:01 simon.c
+drwxr-xr-x 2 balerso balerso      4096 May 23 21:01 test_with_fixed_key
+
+./instruments/data_gen:
+total 24
+-rw-r--r-- 1 balerso balerso 16875 May 29 15:58 experimental_data.txt
+-rw-r--r-- 1 balerso balerso  1802 May 23 21:01 generator.c
+
+./instruments/test_with_fixed_key:
+total 212
+-rw-r--r-- 1 balerso balerso 211044 May 23 21:01 check_r10_key1_b2_fixedkey.cnf
+-rw-r--r-- 1 balerso balerso    471 May 23 21:01 simon32_64_r10_key1_b2_fixedkey.saw

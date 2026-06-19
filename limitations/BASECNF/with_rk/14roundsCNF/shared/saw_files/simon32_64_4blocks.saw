@@ -1,0 +1,5 @@
+m <- cryptol_load "/home/balerso/Simon/Simon-Limitations/limitations/BASECNF/with_rk/simon32_64_wrappers.cry";
+
+enc <- cryptol_extract m "enc14_rk_4blocks";
+
+write_aig "aigs/simon32_64_r14_b4_with_rk.aig" enc;

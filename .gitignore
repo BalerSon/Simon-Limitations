@@ -61,8 +61,6 @@ SAW_lib/
 kissat-rel-*/
 
 # generated formulas and solver outputs
-*.cnf
-*.aig
 *.aiger
 *.log
 *.out
@@ -71,3 +69,8 @@ kissat-rel-*/
 *.o
 main
 generator
+
+# Local binaries / tools
+limitations/instruments/abc
+limitations/instruments/saw
+limitations/instruments/kissat

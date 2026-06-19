@@ -1,0 +1,138 @@
+include "simon32-64_range_rounds_with_rk.cry"
+
+encWithRKBlocks :
+  {rounds, blocks}
+  ( fin rounds
+  , fin blocks
+  , rounds >= 1
+  , rounds <= 32
+  , blocks >= 1
+  ) =>
+  ([4][16], [blocks][2][16]) -> ([blocks]([16], [16]), [rounds][16])
+
+encWithRKBlocks (key, pts) = (cts, rks)
+  where
+    res = [ simonEncryptRoundsWithRK `{rounds} (key, pts @ i)
+          | i <- [0 .. blocks - 1]
+          ]
+
+    cts = [ (res @ i).0 | i <- [0 .. blocks - 1] ]
+
+    rks = (res @ 0).1
+
+enc10_rk_1blocks :
+  ([4][16], [1][2][16]) -> ([1]([16], [16]), [10][16])
+
+enc10_rk_1blocks x = encWithRKBlocks x
+
+enc10_rk_2blocks :
+  ([4][16], [2][2][16]) -> ([2]([16], [16]), [10][16])
+
+enc10_rk_2blocks x = encWithRKBlocks x
+
+enc10_rk_4blocks :
+  ([4][16], [4][2][16]) -> ([4]([16], [16]), [10][16])
+
+enc10_rk_4blocks x = encWithRKBlocks x
+
+
+enc10_rk_8blocks :
+  ([4][16], [8][2][16]) -> ([8]([16], [16]), [10][16])
+
+enc10_rk_8blocks x = encWithRKBlocks x
+
+
+enc11_rk_1blocks :
+  ([4][16], [1][2][16]) -> ([1]([16], [16]), [11][16])
+
+enc11_rk_1blocks x = encWithRKBlocks x
+
+
+enc11_rk_2blocks :
+  ([4][16], [2][2][16]) -> ([2]([16], [16]), [11][16])
+
+enc11_rk_2blocks x = encWithRKBlocks x
+
+
+enc11_rk_4blocks :
+  ([4][16], [4][2][16]) -> ([4]([16], [16]), [11][16])
+
+enc11_rk_4blocks x = encWithRKBlocks x
+
+
+enc11_rk_8blocks :
+  ([4][16], [8][2][16]) -> ([8]([16], [16]), [11][16])
+
+enc11_rk_8blocks x = encWithRKBlocks x
+
+
+enc12_rk_1blocks :
+  ([4][16], [1][2][16]) -> ([1]([16], [16]), [12][16])
+
+enc12_rk_1blocks x = encWithRKBlocks x
+
+
+enc12_rk_2blocks :
+  ([4][16], [2][2][16]) -> ([2]([16], [16]), [12][16])
+
+enc12_rk_2blocks x = encWithRKBlocks x
+
+
+enc12_rk_4blocks :
+  ([4][16], [4][2][16]) -> ([4]([16], [16]), [12][16])
+
+enc12_rk_4blocks x = encWithRKBlocks x
+
+
+enc12_rk_8blocks :
+  ([4][16], [8][2][16]) -> ([8]([16], [16]), [12][16])
+
+enc12_rk_8blocks x = encWithRKBlocks x
+
+
+enc13_rk_1blocks :
+  ([4][16], [1][2][16]) -> ([1]([16], [16]), [13][16])
+
+enc13_rk_1blocks x = encWithRKBlocks x
+
+
+enc13_rk_2blocks :
+  ([4][16], [2][2][16]) -> ([2]([16], [16]), [13][16])
+
+enc13_rk_2blocks x = encWithRKBlocks x
+
+
+enc13_rk_4blocks :
+  ([4][16], [4][2][16]) -> ([4]([16], [16]), [13][16])
+
+enc13_rk_4blocks x = encWithRKBlocks x
+
+
+enc13_rk_8blocks :
+  ([4][16], [8][2][16]) -> ([8]([16], [16]), [13][16])
+
+enc13_rk_8blocks x = encWithRKBlocks x
+
+
+enc14_rk_1blocks :
+  ([4][16], [1][2][16]) -> ([1]([16], [16]), [14][16])
+
+enc14_rk_1blocks x = encWithRKBlocks x
+
+
+enc14_rk_2blocks :
+  ([4][16], [2][2][16]) -> ([2]([16], [16]), [14][16])
+
+enc14_rk_2blocks x = encWithRKBlocks x
+
+
+enc14_rk_4blocks :
+  ([4][16], [4][2][16]) -> ([4]([16], [16]), [14][16])
+
+enc14_rk_4blocks x = encWithRKBlocks x
+
+
+enc14_rk_8blocks :
+  ([4][16], [8][2][16]) -> ([8]([16], [16]), [14][16])
+
+enc14_rk_8blocks x = encWithRKBlocks x

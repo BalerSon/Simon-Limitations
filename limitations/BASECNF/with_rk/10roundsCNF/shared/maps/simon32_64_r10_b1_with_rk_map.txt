@@ -1,0 +1,46 @@
+AIG file:
+aigs/simon32_64_r10_b1_with_rk.aig
+
+Optimized AIG file:
+aigs/simon32_64_r10_b1_with_rk_opt.aig
+
+Base CNF file:
+cnfs/simon32_64_r10_b1_with_rk_base.cnf
+
+Cryptol function:
+simonEncrypt10WithRK : ([4][16], [2][16]) -> (([16], [16]), [10][16])
+
+Meaning:
+This encoding describes Simon32/64 encryption for 10 rounds with one plaintext block.
+Round keys are additionally returned as output variables.
+
+Inputs:
+input[0..63]  = key
+input[64..95] = plaintext
+
+Detailed inputs:
+key[0][0..15]       -> input[0..15]
+key[1][0..15]       -> input[16..31]
+key[2][0..15]       -> input[32..47]
+key[3][0..15]       -> input[48..63]
+plaintext[0][0..15] -> input[64..79]
+plaintext[1][0..15] -> input[80..95]
+
+Outputs:
+output[0..31]   = ciphertext
+output[32..191] = round_keys
+
+Detailed outputs:
+ciphertext[0][0..15] -> output[0..15]
+ciphertext[1][0..15] -> output[16..31]
+
+rk0[0..15] -> output[32..47]
+rk1[0..15] -> output[48..63]
+rk2[0..15] -> output[64..79]
+rk3[0..15] -> output[80..95]
+rk4[0..15] -> output[96..111]
+rk5[0..15] -> output[112..127]
+rk6[0..15] -> output[128..143]
+rk7[0..15] -> output[144..159]
+rk8[0..15] -> output[160..175]
+rk9[0..15] -> output[176..191]
