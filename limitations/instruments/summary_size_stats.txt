@@ -1,0 +1,77 @@
+Total rows: 100
+
+base_vars:
+  min = 2560 at r=10 k=1 b=1
+  max = 19680 at r=14 k=1 b=8
+  avg = 8536.00
+
+base_clauses:
+  min = 7456 at r=10 k=1 b=1
+  max = 58592 at r=14 k=1 b=8
+  avg = 25296.00
+
+base_literals:
+  min = 17312 at r=10 k=1 b=1
+  max = 136032 at r=14 k=1 b=8
+  avg = 58704.00
+
+rk_vars:
+  min = 3040 at r=10 k=1 b=1
+  max = 20480 at r=14 k=1 b=8
+  avg = 9176.00
+
+rk_clauses:
+  min = 9472 at r=10 k=1 b=1
+  max = 61952 at r=14 k=1 b=8
+  avg = 27984.00
+
+rk_literals:
+  min = 23168 at r=10 k=1 b=1
+  max = 145792 at r=14 k=1 b=8
+  avg = 66512.00
+
+rk_delta_vars:
+  min = 480 at r=10 k=1 b=1
+  max = 800 at r=14 k=1 b=1
+  avg = 640.00
+
+rk_delta_clauses:
+  min = 2016 at r=10 k=1 b=1
+  max = 3360 at r=14 k=1 b=1
+  avg = 2688.00
+
+rk_delta_literals:
+  min = 5856 at r=10 k=1 b=1
+  max = 9760 at r=14 k=1 b=1
+  avg = 7808.00
+
+reverse_vars:
+  min = 4192 at r=10 k=1 b=1
+  max = 37856 at r=14 k=1 b=8
+  avg = 15856.00
+
+reverse_clauses:
+  min = 12320 at r=10 k=1 b=1
+  max = 112864 at r=14 k=1 b=8
+  avg = 47136.00
+
+reverse_literals:
+  min = 28576 at r=10 k=1 b=1
+  max = 261984 at r=14 k=1 b=8
+  avg = 109344.00
+
+reverse_delta_vars:
+  min = 1632 at r=10 k=1 b=1
+  max = 18176 at r=14 k=1 b=8
+  avg = 7320.00
+
+reverse_delta_clauses:
+  min = 4864 at r=10 k=1 b=1
+  max = 54272 at r=14 k=1 b=8
+  avg = 21840.00
+
+reverse_delta_literals:
+  min = 11264 at r=10 k=1 b=1
+  max = 125952 at r=14 k=1 b=8
+  avg = 50640.00
+

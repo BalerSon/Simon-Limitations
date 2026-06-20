@@ -91,3 +91,8 @@ limitations/instruments/kissat
 # Python cache
 __pycache__/
 *.pyc
+
+# large local binaries
+limitations/instruments/bin/abc
+limitations/instruments/bin/kissat
+limitations/instruments/bin/saw

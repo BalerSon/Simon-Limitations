@@ -1,0 +1,5 @@
+m <- cryptol_load "/home/balerso/Simon/Simon-Limitations/limitations/LIMITEDCNF/reverse_round/simon32_64_reverse_wrappers.cry";
+
+enc <- cryptol_extract m "enc14_reverse_rk_1blocks";
+
+write_aig "aigs/simon32_64_r14_b1_reverse_rk.aig" enc;

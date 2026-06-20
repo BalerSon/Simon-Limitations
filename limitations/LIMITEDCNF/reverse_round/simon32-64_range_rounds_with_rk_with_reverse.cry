@@ -1,0 +1,121 @@
+zSeq = 0b11111010001001010110000111001101111101000100101011000011100110
+
+f_x: [16] -> [16]
+f_x w = ((w<<<1) && (w<<<8)) ^ (w<<<2)
+
+simonRound: [16] -> [16] -> [16] -> ([16],[16])
+simonRound X Y Round_key = (X', Y') where
+    X' = Y ^ (f_x X) ^ Round_key
+    Y' = X
+
+expandKey : [4][16] -> [32][16]
+expandKey k0 = k
+    where
+        k = k0 # [r where
+                    tmp = (k@(i-1))>>> 3
+                    p = tmp ^ (k @ (i-3))
+                    q = p ^ (p >>> 1)
+                    tt = zero:[15]
+                    z = tt # [zSeq @ ((i-4)% 62)]
+                    c3 = 3:[16]
+                    r = ~k@(i-4) ^ q ^ z ^ c3
+                | i <- [4 .. 31]
+                ]
+
+simonEncryptRoundsWithRK :
+  {r} (fin r, r >= 1, r <= 32) =>
+  ([4][16], [2][16]) -> (([16], [16]), [r][16])
+
+simonEncryptRoundsWithRK (key, plaintext) = ((x, y), rks)
+  where
+    x0 = plaintext@0
+    y0 = plaintext@1
+
+    roundKeys = expandKey key
+    rks = take`{r} roundKeys
+
+    rounds = [(x0, y0)] # [simonRound tx ty k
+                          | (tx,ty) <- rounds
+                          | k <- rks]
+
+    (x,y) = rounds @ `r
+
+simonEncrypt10WithRK : ([4][16], [2][16]) -> (([16], [16]), [10][16])
+simonEncrypt10WithRK input = simonEncryptRoundsWithRK`{10} input
+
+simonEncrypt11WithRK : ([4][16], [2][16]) -> (([16], [16]), [11][16])
+simonEncrypt11WithRK input = simonEncryptRoundsWithRK`{11} input
+
+simonEncrypt12WithRK : ([4][16], [2][16]) -> (([16], [16]), [12][16])
+simonEncrypt12WithRK input = simonEncryptRoundsWithRK`{12} input
+
+simonEncrypt13WithRK : ([4][16], [2][16]) -> (([16], [16]), [13][16])
+simonEncrypt13WithRK input = simonEncryptRoundsWithRK`{13} input
+
+simonEncrypt14WithRK : ([4][16], [2][16]) -> (([16], [16]), [14][16])
+simonEncrypt14WithRK input = simonEncryptRoundsWithRK`{14} input
+
+testSimon10WithRK : Bit
+testSimon10WithRK = (x, y) == (0x91A1, 0x3F0D)
+  where
+    ((x, y), rks) =
+      simonEncrypt10WithRK ([0xCF3B, 0x1BED, 0xA195, 0xA847],
+                            [0xEB2C, 0x643E])
+
+simonInvRound : [16] -> [16] -> [16] -> ([16], [16])
+simonInvRound Xnext Ynext Round_key = (Xprev, Yprev)
+  where
+    Xprev = Ynext
+    Yprev = Xnext ^ (f_x Ynext) ^ Round_key
+
+
+simonDecryptRoundsWithRK :
+  {r} (fin r, r >= 1, r <= 32) =>
+  ([r][16], [2][16]) -> [2][16]
+
+simonDecryptRoundsWithRK (rks, ciphertext) = [x0, y0]
+  where
+    xr = ciphertext @ 0
+    yr = ciphertext @ 1
+
+    revKeys = reverse rks
+
+    rounds = [(xr, yr)] # [simonInvRound tx ty k
+                          | (tx,ty) <- rounds
+                          | k <- revKeys]
+
+    (x0, y0) = rounds @ `r
+
+
+simonEncryptRoundsWithReverseRK :
+  {r} (fin r, r >= 1, r <= 32) =>
+  ([4][16], [2][16]) -> (([16], [16]), [r][16], [2][16])
+
+simonEncryptRoundsWithReverseRK (key, plaintext) = ((x, y), rks, reverse_plaintext)
+  where
+    ((x, y), rks) = simonEncryptRoundsWithRK`{r} (key, plaintext)
+    reverse_plaintext = simonDecryptRoundsWithRK`{r} (rks, [x, y])
+
+
+simonEncrypt10WithReverseRK : ([4][16], [2][16]) -> (([16], [16]), [10][16], [2][16])
+simonEncrypt10WithReverseRK input = simonEncryptRoundsWithReverseRK`{10} input
+
+simonEncrypt11WithReverseRK : ([4][16], [2][16]) -> (([16], [16]), [11][16], [2][16])
+simonEncrypt11WithReverseRK input = simonEncryptRoundsWithReverseRK`{11} input
+
+simonEncrypt12WithReverseRK : ([4][16], [2][16]) -> (([16], [16]), [12][16], [2][16])
+simonEncrypt12WithReverseRK input = simonEncryptRoundsWithReverseRK`{12} input
+
+simonEncrypt13WithReverseRK : ([4][16], [2][16]) -> (([16], [16]), [13][16], [2][16])
+simonEncrypt13WithReverseRK input = simonEncryptRoundsWithReverseRK`{13} input
+
+simonEncrypt14WithReverseRK : ([4][16], [2][16]) -> (([16], [16]), [14][16], [2][16])
+simonEncrypt14WithReverseRK input = simonEncryptRoundsWithReverseRK`{14} input
+
+
+testSimon10WithReverseRK : Bit
+testSimon10WithReverseRK = ((x, y) == (0x91A1, 0x3F0D)) && (reverse_plaintext == [0xEB2C, 0x643E])
+  where
+    ((x, y), rks, reverse_plaintext) =
+      simonEncrypt10WithReverseRK ([0xCF3B, 0x1BED, 0xA195, 0xA847],
+                                   [0xEB2C, 0x643E])

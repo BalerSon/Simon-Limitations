@@ -1,0 +1,131 @@
+include "simon32-64_range_rounds_with_rk_with_reverse.cry"
+
+encWithReverseRKBlocks :
+  {rounds, blocks}
+  ( fin rounds
+  , fin blocks
+  , rounds >= 1
+  , rounds <= 32
+  , blocks >= 1
+  ) =>
+  ([4][16], [blocks][2][16], [blocks][2][16])
+    -> ([blocks]([16], [16]), [rounds][16], [blocks][2][16])
+
+encWithReverseRKBlocks (key, pts, known_cts) = (computed_cts, rks, reverse_pts)
+  where
+    enc_res = [ simonEncryptRoundsWithRK `{rounds} (key, pts @ i)
+              | i <- [0 .. blocks - 1]
+              ]
+
+    computed_cts = [ (enc_res @ i).0 | i <- [0 .. blocks - 1] ]
+
+    rks = (enc_res @ 0).1
+
+    reverse_pts = [ simonDecryptRoundsWithRK `{rounds} (rks, known_cts @ i)
+                  | i <- [0 .. blocks - 1]
+                  ]
+
+
+enc10_reverse_rk_1blocks :
+  ([4][16], [1][2][16], [1][2][16])
+    -> ([1]([16], [16]), [10][16], [1][2][16])
+enc10_reverse_rk_1blocks x = encWithReverseRKBlocks x
+
+enc10_reverse_rk_2blocks :
+  ([4][16], [2][2][16], [2][2][16])
+    -> ([2]([16], [16]), [10][16], [2][2][16])
+enc10_reverse_rk_2blocks x = encWithReverseRKBlocks x
+
+enc10_reverse_rk_4blocks :
+  ([4][16], [4][2][16], [4][2][16])
+    -> ([4]([16], [16]), [10][16], [4][2][16])
+enc10_reverse_rk_4blocks x = encWithReverseRKBlocks x
+
+enc10_reverse_rk_8blocks :
+  ([4][16], [8][2][16], [8][2][16])
+    -> ([8]([16], [16]), [10][16], [8][2][16])
+enc10_reverse_rk_8blocks x = encWithReverseRKBlocks x
+
+
+enc11_reverse_rk_1blocks :
+  ([4][16], [1][2][16], [1][2][16])
+    -> ([1]([16], [16]), [11][16], [1][2][16])
+enc11_reverse_rk_1blocks x = encWithReverseRKBlocks x
+
+enc11_reverse_rk_2blocks :
+  ([4][16], [2][2][16], [2][2][16])
+    -> ([2]([16], [16]), [11][16], [2][2][16])
+enc11_reverse_rk_2blocks x = encWithReverseRKBlocks x
+
+enc11_reverse_rk_4blocks :
+  ([4][16], [4][2][16], [4][2][16])
+    -> ([4]([16], [16]), [11][16], [4][2][16])
+enc11_reverse_rk_4blocks x = encWithReverseRKBlocks x
+
+enc11_reverse_rk_8blocks :
+  ([4][16], [8][2][16], [8][2][16])
+    -> ([8]([16], [16]), [11][16], [8][2][16])
+enc11_reverse_rk_8blocks x = encWithReverseRKBlocks x
+
+
+enc12_reverse_rk_1blocks :
+  ([4][16], [1][2][16], [1][2][16])
+    -> ([1]([16], [16]), [12][16], [1][2][16])
+enc12_reverse_rk_1blocks x = encWithReverseRKBlocks x
+
+enc12_reverse_rk_2blocks :
+  ([4][16], [2][2][16], [2][2][16])
+    -> ([2]([16], [16]), [12][16], [2][2][16])
+enc12_reverse_rk_2blocks x = encWithReverseRKBlocks x
+
+enc12_reverse_rk_4blocks :
+  ([4][16], [4][2][16], [4][2][16])
+    -> ([4]([16], [16]), [12][16], [4][2][16])
+enc12_reverse_rk_4blocks x = encWithReverseRKBlocks x
+
+enc12_reverse_rk_8blocks :
+  ([4][16], [8][2][16], [8][2][16])
+    -> ([8]([16], [16]), [12][16], [8][2][16])
+enc12_reverse_rk_8blocks x = encWithReverseRKBlocks x
+
+
+enc13_reverse_rk_1blocks :
+  ([4][16], [1][2][16], [1][2][16])
+    -> ([1]([16], [16]), [13][16], [1][2][16])
+enc13_reverse_rk_1blocks x = encWithReverseRKBlocks x
+
+enc13_reverse_rk_2blocks :
+  ([4][16], [2][2][16], [2][2][16])
+    -> ([2]([16], [16]), [13][16], [2][2][16])
+enc13_reverse_rk_2blocks x = encWithReverseRKBlocks x
+
+enc13_reverse_rk_4blocks :
+  ([4][16], [4][2][16], [4][2][16])
+    -> ([4]([16], [16]), [13][16], [4][2][16])
+enc13_reverse_rk_4blocks x = encWithReverseRKBlocks x
+
+enc13_reverse_rk_8blocks :
+  ([4][16], [8][2][16], [8][2][16])
+    -> ([8]([16], [16]), [13][16], [8][2][16])
+enc13_reverse_rk_8blocks x = encWithReverseRKBlocks x
+
+
+enc14_reverse_rk_1blocks :
+  ([4][16], [1][2][16], [1][2][16])
+    -> ([1]([16], [16]), [14][16], [1][2][16])
+enc14_reverse_rk_1blocks x = encWithReverseRKBlocks x
+
+enc14_reverse_rk_2blocks :
+  ([4][16], [2][2][16], [2][2][16])
+    -> ([2]([16], [16]), [14][16], [2][2][16])
+enc14_reverse_rk_2blocks x = encWithReverseRKBlocks x
+
+enc14_reverse_rk_4blocks :
+  ([4][16], [4][2][16], [4][2][16])
+    -> ([4]([16], [16]), [14][16], [4][2][16])
+enc14_reverse_rk_4blocks x = encWithReverseRKBlocks x
+
+enc14_reverse_rk_8blocks :
+  ([4][16], [8][2][16], [8][2][16])
+    -> ([8]([16], [16]), [14][16], [8][2][16])
+enc14_reverse_rk_8blocks x = encWithReverseRKBlocks x
