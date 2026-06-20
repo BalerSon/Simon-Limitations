@@ -96,3 +96,5 @@ __pycache__/
 limitations/instruments/bin/abc
 limitations/instruments/bin/kissat
 limitations/instruments/bin/saw
+*_fixedkey.cnf
+*_fixedkey.log
