@@ -98,3 +98,4 @@ limitations/instruments/bin/kissat
 limitations/instruments/bin/saw
 *_fixedkey.cnf
 *_fixedkey.log
+.vscode/
