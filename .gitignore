@@ -76,3 +76,18 @@ limitations/instruments/saw
 limitations/instruments/kissat
 
 .history
+# Local / temporary files
+limitations/file.txt
+limitations/**/abc.history
+limitations/**/full_map_tmp_b*.txt
+limitations/**/instances/*_fixedkey_test.cnf
+limitations/scripts_validation_backup/
+
+# Local tool binaries
+limitations/instruments/abc
+limitations/instruments/saw
+limitations/instruments/kissat
+
+# Python cache
+__pycache__/
+*.pyc
